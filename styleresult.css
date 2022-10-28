@@ -117,7 +117,7 @@ footer {
 .vieuxP {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -189,6 +189,8 @@ footer {
 
 .footerPierre {
     margin-top: 80px;
+    font-family: "Audiowide", sans-serif;
+    font-size: 11px;
 }
 
 @media (max-width: 700px) {
@@ -244,5 +246,13 @@ footer {
 
     #descriptionTitre, #pourquoiTitre, #horoscopeTitre, #pokemonEng i {
         font-size: 14px;
+    }
+
+    footer {
+        font-size: 11px;
+    }
+
+    .vieuxP {
+        height: 65vh;
     }
 }
