@@ -114,3 +114,42 @@ footer {
   font-size: 12px;
   text-align: center;
 }
+
+@media (max-width: 700px) {
+
+  #logo {
+    width: 90vw;
+  }
+
+  main {
+      font-size: 20px;
+  }
+
+  #ondine {
+    width: 45vw;
+  }
+  
+  .ondine {
+    width: 180px;
+  }
+  
+  #sacha, #bulleSacha {
+    display: none;
+  }
+  
+  .bulle {
+    height: 20vw;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    align-self: center;
+  }
+
+  #boutonGenerer, #boutonGenererHover {
+    margin-top: 20px;
+    width: 35vw;
+  }
+
+}
